@@ -23,13 +23,13 @@ flask run
 GET /bedwars/player/<username>
 ```
 
-### Get player stats
+### Get top players stats
 ```js
 GET /bedwars/top
-params: {
-    stat_type: "lits-casses" | "victoires" | "temps-de-jeu" | "final-kills" | "morts" | "kills"
-    period: "jour" | "mois" | "a-vie"
-    limit: default=100 // amount of players to return
+params {
+    stat_type= "lits-casses" | "victoires" | "temps-de-jeu" | "final-kills" | "morts" | "kills"
+    period= "jour" | "mois" | "a-vie"
+    limit= default(100) // amount of players to return
 }
 ```
 
