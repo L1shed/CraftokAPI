@@ -2,6 +2,8 @@
 
 Unofficial Bedwars-focused API for Craftok stats.
 
+Uses the https://craftok.fr/leaderboard website to get datas
+
 ## Installation
 
 Make sure you have a recent version of Python installed.
